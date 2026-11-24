@@ -1,2 +1,34 @@
-# Onework
-This is my first Java project: a simple console app that prompts the user for their name and performs addition.
+# Java Console Adder
+
+Мой первый проект на Java: простое консольное приложение, которое запрашивает у пользователя имя и выполняет сложение чисел.
+
+## 🚀 Что умеет программа
+
+- Запрашивает имя пользователя и выводит приветствие.
+- Принимает два целых числа от пользователя.
+- Выводит результат сложения.
+- Обрабатывает некорректный ввод (не числа) и предлагает повторить.
+
+## 🛠 Технологии и инструменты
+
+- **Язык:** Java 27+
+- **Ввод/вывод:** `java.util.Scanner`
+- **Обработка ошибок:** `try-catch` для `InputMismatchException`
+
+## 📥 Как запустить
+
+### Вариант 1: через IDE (IntelliJ IDEA / Eclipse)
+
+1. Откройте проект в IDE.
+2. Найдите главный класс с методом `public static void main(String[] args)`.
+3. Нажмите «Run».
+
+### Вариант 2: через терминал (если установлен JDK)
+
+```bash
+# Компиляция
+javac src/main/java/com/example/adder/Main.java
+
+# Запуск
+java -cp src/main/java com.example.adder.Main
+
